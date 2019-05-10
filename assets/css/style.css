@@ -1,0 +1,23 @@
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+
+h2 {
+    text-align: center;
+}
+
+body {
+    background-color: darkgreen;
+}
+
+img {
+    max-width: 10%;
+}
+
+button{
+    align-items: center;
+    display:flex;
+    justify-content: center;
+}

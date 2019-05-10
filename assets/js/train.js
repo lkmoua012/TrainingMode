@@ -11,7 +11,7 @@ var Spade1 = {
     type    :   'ace',
     symbol  :   'spade',
     number  :   1,
-    img     :   './assets/img/ace_of_spades.png'
+    img     :   './img/ace_of_spades.png'
 }
 
 var Spade2 = {
@@ -19,7 +19,7 @@ var Spade2 = {
     type    :   'two',
     symbol  :   'spade',
     number  :   2,
-    img     :   './assets/img/2_of_spades.png'
+    img     :   './img/2_of_spades.png'
 }
 
 var Spade3 = {
@@ -27,7 +27,7 @@ var Spade3 = {
     type    :   'three',
     symbol  :   'spade',
     number  :   3,
-    img     :   './assets/img/3_of_spades.png'
+    img     :   './img/3_of_spades.png'
 }
 
 var Spade4 = {
@@ -35,7 +35,7 @@ var Spade4 = {
     type    :   'four',
     symbol  :   'spade',
     number  :   4,
-    img     :   './assets/img/4_of_spades.png'
+    img     :   './img/4_of_spades.png'
 }
 
 var Spade5 = {
@@ -43,7 +43,7 @@ var Spade5 = {
     type    :   'five',
     symbol  :   'spade',
     number  :   5,
-    img     :   './assets/img/5_of_spades.png'
+    img     :   './img/5_of_spades.png'
 }
 
 var Spade6 = {
@@ -51,7 +51,7 @@ var Spade6 = {
     type    :   'six',
     symbol  :   'spade',
     number  :   6,
-    img     :   './assets/img/6_of_spades.png'
+    img     :   './img/6_of_spades.png'
 }
 
 var Spade7 = {
@@ -59,7 +59,7 @@ var Spade7 = {
     type    :   'seven',
     symbol  :   'spade',
     number  :   7,
-    img     :   './assets/img/7_of_spades.png'
+    img     :   './img/7_of_spades.png'
 }
 
 var Spade8 = {
@@ -67,7 +67,7 @@ var Spade8 = {
     type    :   'eight',
     symbol  :   'spade',
     number  :   8,
-    img     :   './assets/img/8_of_spades.png'
+    img     :   './img/8_of_spades.png'
 }
 
 var Spade9 = {
@@ -75,7 +75,7 @@ var Spade9 = {
     type    :   'nine',
     symbol  :   'spade',
     number  :   9,
-    img     :   './assets/img/9_of_spades.png'
+    img     :   './img/9_of_spades.png'
 }
 
 var Spade10 = {
@@ -83,7 +83,7 @@ var Spade10 = {
     type    :   'ten',
     symbol  :   'spade',
     number  :   10,
-    img     :   './assets/img/10_of_spades.png'
+    img     :   './img/10_of_spades.png'
 }
 
 var Spade11 = {
@@ -91,7 +91,7 @@ var Spade11 = {
     type    :   'jack',
     symbol  :   'spade',
     number  :   10,
-    img     :   './assets/img/jack_of_spades.png'
+    img     :   './img/jack_of_spades.png'
 }
 
 var Spade12 = {
@@ -99,7 +99,7 @@ var Spade12 = {
     type    :   'queen',
     symbol  :   'spade',
     number  :   10,
-    img     :   './assets/img/queen_of_spades.png'
+    img     :   './img/queen_of_spades.png'
 }
 
 var Spade13 = {
@@ -107,5 +107,16 @@ var Spade13 = {
     type    :   'king',
     symbol  :   'spade',
     number  :   10,
-    img     :   './assets/img/king_of_spades.png'
+    img     :   './img/king_of_spades.png'
 }
+
+//
+
+$(document).ready(function() {
+
+$('#playArea').append('<img src ="./assets/img/king_of_spades.png">');
+$('#playArea').append('<img class="overlayImage" src ="./assets/img/queen_of_spades.png">');
+
+console.log("hello world2");
+
+});
